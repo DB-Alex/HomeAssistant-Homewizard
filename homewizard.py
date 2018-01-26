@@ -93,7 +93,7 @@ class homewizard(ClimateDevice):
             self._current_state = heatlink['heating']
             _LOGGER.debug("Update successful")
         else:
-            _LOGGER.debug("Update failed")
+            _LOGGER.exception("Update failed")
             
 
     @property
