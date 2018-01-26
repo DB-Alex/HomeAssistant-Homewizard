@@ -19,4 +19,4 @@ climate:
     scan_interval: 10
 ```
 
-THen add the homewizard.py file to the config-folder/custom_components/climate and restart Home Assistant. 
+Then add the homewizard.py file to the config-folder/custom_components/climate and restart Home Assistant. 
