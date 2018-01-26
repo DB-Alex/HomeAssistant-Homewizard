@@ -9,7 +9,7 @@ https://github.com/cyberjunky/home-assistant-custom-components/blob/master/clima
 https://github.com/rvdvoorde/domoticz-homewizard
 
 Add this to your configuration.yaml:
-
+```
 climate:
   - platform: homewizard
     name: Homewizard
@@ -17,5 +17,6 @@ climate:
     password: Password
     # not sure if this works:
     scan_interval: 10
+```
 
 THen add the homewizard.py file to the config-folder/custom_components/climate and restart Home Assistant. 
